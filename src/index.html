@@ -6,42 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Git Basics</title>
 
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <div class="logo">Learn Git</div>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">About Us</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="container">
+        <header class="header display-flex">
+            <div class="logo">Learn Git</div>
+            <nav class="header-nav">
+                <ul class="menu-list display-flex">
+                    <li class="menu-list__item"><a class="menu-list__link" href="#">Home</a></li>
+                    <li class="menu-list__item"><a class="menu-list__link" href="#">Shop</a></li>
+                    <li class="menu-list__item"><a class="menu-list__link" href="#">About Us</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <main>
-        <h1>Git Wiki</h1>
-        <article>
-            <h2>Git: Basic Commands</h2>
-            <section>
-                <div>git status</div>
-                <div>git add</div>
-                <div>git commit -m "comment"</div>
-                <div>git log</div>
-            </section>
+        <main class="main-content">
+            <h1 class="main-title">Git Wiki</h1>
+            <article class="article-wiki">
+                <h2 class="content-title">Git: Basic Commands</h2>
+                <section class="section-box">
+                    <div class="section-box__item">git status</div>
+                    <div class="section-box__item">git add</div>
+                    <div class="section-box__item">git commit -m "comment"</div>
+                    <div class="section-box__item">git log</div>
+                </section>
 
-            <section>
-                <h2>Git: remove and rename</h2>
-                <div>git rm</div>
-                <div>git mv</div>
-            </section>
-        </article>
-    </main>
+                <h2  class="content-title">Git: remove and rename</h2>
+                <section class="section-box">
+                    <div class="section-box__item">git rm</div>
+                    <div class="section-box__item">git mv</div>
+                </section>
+            </article>
+        </main>
 
-    <footer>
-        <div>Made in 2022</div>
-        <div>Don't stop learn new things and believe in yourself!</div>
-    </footer>
+        <footer class="footer">
+            <div class="footer__data">Made in 2022</div>
+            <div class="footer__message">Don't stop learn new things and believe in yourself!</div>
+        </footer>
+    </div>
 </body>
 </html>
